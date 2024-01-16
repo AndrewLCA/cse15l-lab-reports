@@ -1,6 +1,6 @@
-## Lab Report 1 - Remote Access and FileSystem 
+# Lab Report 1 - Remote Access and FileSystem 
 
-* cd
+* **cd**
   1. cd with no argument
      ![image](cd w:o argument .png)
   2. cd with path to directory argument
@@ -9,7 +9,7 @@
       ![image](cd w file argument .png)
      
   
-* ls
+* **ls**
   1. ls with no argument
      ![image](ls w:o argument .png)
   2. ls with path to directory argument
@@ -18,7 +18,7 @@
      ![image](ls w file argument .png)
 
   
-* cat
+* **cat**
   1. cat with no argument
      ![image](cat w:o argument.png)
   2. cat with path to directory argument
