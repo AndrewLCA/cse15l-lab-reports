@@ -22,7 +22,7 @@
   1. cat with no argument
      ![image](cat w:o argument.png)
   2. cat with path to directory argument
-     ![image](cat w directory argument .png)
+     ![image](cat w directory as argument .png)
   3. cat with path to file argument
      ![image](cat w file argument .png)
      
