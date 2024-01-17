@@ -12,7 +12,7 @@
   3. `cd` with path to file argument
       ![image](cd w file argument .png)
 
-     The working directory when this command ran is `/home/lecture1/README`. A path to the file `/README` was inputted as an argument. The output displays an error because `cd` changes the directory, it cannot change the directory to a file. 
+     The working directory when this command ran is `/home/lecture1`. A path to the file `/README` was inputted as an argument. The output displays an error because `cd` changes the directory, it cannot change the directory to a file. 
      
   
 * **`ls`**
@@ -27,7 +27,7 @@
   3. `ls` with path to file argument
      ![image](ls w file argument .png)
      
-       The working directory when this command ran is `/home/lecture1/README`. A path to a file was passed as an argument. However, `/ls` only prints out files/directories in the current directory. Since `README` is a file, the output indicates an error. 
+       The working directory when this command ran is `/home/lecture1`. A path to a file `/README` was passed as an argument. However, `/ls` only prints out files/directories in the current directory. Since `README` is a file, the output indicates an error. 
 
   
 * **`cat`**
@@ -42,5 +42,5 @@
   3. `cat` with path to file argument
      ![image](cat w file argument .png)
      
-       The working directory when this command ran is `/home/lecture1/README`. A path to a file was passed as an argument. This meant that since we are looking at a file, `cat` can print out the contents of `README` as seen. The output is not an error. 
+       The working directory when this command ran is `/home/lecture1`. A path to a file `/README` was passed as an argument. This meant that since we are looking at a file, `cat` can print out the contents of `README` as seen. The output is not an error. 
      
