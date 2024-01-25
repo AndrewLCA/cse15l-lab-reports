@@ -4,11 +4,11 @@
   1. `cd` with no argument
      ![image](cd w:o argument .png)
 
-     The working directory when this command ran is `/home`. Since no argument was given, the current directory remained unchanged. Thus output shows that we are still in the `/home` directory and is not an error.
+     The working directory when this command ran is `/home`. Since no argument was given, the current directory remained unchanged. Thus output shows that we are still in the `/home` directory. However, when the command is run, it gets switched to the `/home` directory so the output is not an error. 
   2. `cd` with path to directory argument
      ![image](cd w directory argument .png)
 
-     The working directory when this command ran is `/home/lecture1`. A path to the `/lecture1` directory was given as an argument which changed the current directory to the lecture1 directory. It can be seen that the output indicates that we are in the lecture1 directory. This output is not an error. 
+     The working directory when this command ran is `/home/lecture1`. A path to the `/lecture1` directory was given as an argument which changed the current directory to the lecture1 directory. It can be seen that the output indicates that we are in the `lecture1` directory. This output is not an error. 
   3. `cd` with path to file argument
       ![image](cd w file argument .png)
 
@@ -27,7 +27,7 @@
   3. `ls` with path to file argument
      ![image](ls w file argument .png)
      
-       The working directory when this command ran is `/home/lecture1`. A path to a file `/README` was passed as an argument. However, `/ls` only prints out files/directories in the current directory. Since `README` is a file, the output indicates an error. 
+       The working directory when this command ran is `/home/lecture1`. A path to a file `/README` was passed as an argument. However, `/ls` only prints out files/directories in the current directory. Since `README` is a file, `/ls` prints out the file so the output is not an error. 
 
   
 * **`cat`**
