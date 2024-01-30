@@ -51,3 +51,14 @@ The methods that are called in the first `/add-message` is an array of `paramete
 
 The methods that are run in this screenshot would be the same as what was stated in the screenshot above. Same with the relevant arguments for those methods. `/add-message?s=I played tennis today!&user=Theo` would have `String a` as `I played tennis today!` and `String b` as `Theo`. `String c` would concatenate both `a` and `b`. `c` would then get pushed into ArrayList `chat`. One difference here is that the message from the first screenshot is the first element of `chat` so this new message would be the second element of `chat`. Using a for loop we  move both elements into `String d` and separate each element with a new line `\n`. 
 
+**Private Key for SSH**
+![image](private key for SSH.png)
+
+**Public Key for SSH**
+![image](public key for SSH.png)
+
+**Logging into SSH w/o password**
+![image](ssh no password.png)
+
+
+
