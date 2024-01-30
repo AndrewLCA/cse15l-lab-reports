@@ -8,7 +8,7 @@
   2. `cd` with path to directory argument
      ![image](cd w directory argument .png)
 
-     The working directory when this command ran is `/home`. A path to the `/lecture1` directory was given as an argument which changed the current directory to the lecture1 directory. It can be seen that the output indicates that we are in the `lecture1` directory. This output is not an error. 
+     The working directory when this command ran is `/home`. A path to the `/lecture1` directory was given as an argument which changed the current directory to the `lecture1` directory. It can be seen that the output indicates that we are in the `lecture1` directory. This output is not an error. 
   3. `cd` with path to file argument
       ![image](cd w file argument .png)
 
