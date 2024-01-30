@@ -42,3 +42,7 @@ class NumberServer {
 ```
 **Screenshots of /add-message**
 
+![image](Lab 2 ss1.png)
+
+![image](Lab 2 ss2.png)
+
