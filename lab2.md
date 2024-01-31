@@ -55,10 +55,12 @@ The methods that are run in this screenshot would be the same as what was stated
 ![image](private key for SSH.png)
 
 **Public Key for SSH**
-![image](public key for SSH.png)
+![image](public key for SSH.png) 
 
 **Logging into SSH w/o password**
 ![image](ssh no password.png)
+
+One thing that I learned in lab 2 that I did not know before was being able to host a server from the terminal. I also never knew you could edit a webpage by changing the query of the URL. 
 
 
 
