@@ -18,7 +18,7 @@
     assertArrayEquals(new int[] {4, 3,2,1}, input1);
   }
 ```
-**Test Case that does not induce failure**
+**Test Case without Failure**
 ```
 @Test 
   public void testReverseInPlace()
