@@ -58,6 +58,7 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
+In the original code, you are not able to directly swap the values of two array indexes. Thus, a temp variable was created storing the value of the first index. Since the first index is now empty, the last value of the array is placed into it. The last index is then set to the value in temp. Since two indexes are being changed every iteration, the max amount of iterations should be length/2. 
 
 
 
