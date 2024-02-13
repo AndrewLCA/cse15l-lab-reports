@@ -1,14 +1,7 @@
 # Lab Report 3 - Bugs and Commands #
 
-**Reverse Array Code with Bug**
-```
-static void reverseInPlace(int[] arr) {
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = arr[arr.length - i - 1];
-    }
-  }
-  ```
-**Test Cases**
+## Reverse Array Method ## 
+**Failure Inducing Test Cases**
 ```
 @Test 
 	public void testReverseInPlaceOdd() {
@@ -44,6 +37,28 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 **Output**
 
 ![image](JUnit Test Bug.png)
+
+**Reverse Array Code with Bug**
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+  ```
+
+**Reverse Array Code without Bugs**
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2; i ++) 
+    {
+      int temp = arr[i]; 
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp; 
+    }
+  }
+```
+
 
 
 
