@@ -82,6 +82,10 @@ Andrews-Laptop:technical andrewlu$ ls
 Andrews-Laptop:technical andrewlu$ find . -delete 
 Andrews-Laptop:technical andrewlu$ ls
 ```
+This command line option traverses through all found files/directories and deletes them. As seen in the first code block, all files were deleted from the `911 report` directory, while the second code block shows all files and directories deleted from `technical` directory. 
+
+Source - https://ss64.com/mac/find.html
+
 **`find . -type d empty` command**
 
 ```
@@ -92,6 +96,10 @@ andrewlu@Andrews-Laptop technical % find . -type d -empty
 andrewlu@Andrews-Laptop plos % find . -type f -empty
 ./empty file
 ```
+This command line option finds all empty files/directories. In the first code block, an empty directory was created and by using `-type d` it searches up empty directories. While in the second code block, using `-type f` searches up empty files. 
+
+Source -https://ss64.com/mac/find.html
+
 **`find . -type d -mtime 0` command**
 
 ```
@@ -115,6 +123,10 @@ andrewlu@Andrews-Laptop madeNow % find . -mtime 0
 .
 ./created now
 ```
+This command line option searches for files/directories modified or created within the last 24 hours. 
+
+Source - https://ss64.com/mac/find.html
+
 ***`find . -type` command**
 ```
 andrewlu@Andrews-Laptop technical % find . -type d 
@@ -152,6 +164,9 @@ andrewlu@Andrews-Laptop 911report % find . -type f
 ./chapter-10.txt
 ./chapter-11.txt
 ```
+This command line option searches up the file of the specific type. `-type f` would mean files while `-type d` would refer to directories. 
+
+Source - https://ss64.com/mac/find.html
 
 
 
