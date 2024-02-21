@@ -63,18 +63,28 @@ In the original code, you are not able to directly swap the values of two array 
 **`find` Command**
 
 
-**`find . -delete` command**
+**`find technical/government/About_LSC -type f -delete` command**
 ```
-Andrews-Laptop:technical andrewlu$ cd 911report
-Andrews-Laptop:911report andrewlu$ ls
-chapter-1.txt           chapter-13.3.txt        chapter-6.txt
-chapter-10.txt          chapter-13.4.txt        chapter-7.txt
-chapter-11.txt          chapter-13.5.txt        chapter-8.txt
-chapter-12.txt          chapter-2.txt           chapter-9.txt
-chapter-13.1.txt        chapter-3.txt           preface.txt
-chapter-13.2.txt        chapter-5.txt
-Andrews-Laptop:911report andrewlu$ find . -delete 
-Andrews-Laptop:911report andrewlu$ ls
+andrewlu@Andrews-Laptop docsearch % ls technical/government/About_LSC
+CONFIG_STANDARDS.txt
+Comments_on_semiannual.txt
+LegalServCorp_v_VelazquezDissent.txt
+LegalServCorp_v_VelazquezOpinion.txt
+LegalServCorp_v_VelazquezSyllabus.txt
+ODonnell_et_al_v_LSCdecision.txt
+ONTARIO_LEGAL_AID_SERIES.txt
+Progress_report.txt
+Protocol_Regarding_Access.txt
+Special_report_to_congress.txt
+State_Planning_Report.txt
+State_Planning_Special_Report.txt
+Strategic_report.txt
+commission_report.txt
+conference_highlights.txt
+diversity_priorities.txt
+reporting_system.txt
+andrewlu@Andrews-Laptop docsearch % find technical/government/About_LSC -type f -delete
+andrewlu@Andrews-Laptop docsearch % ls technical/government/About_LSC
 ```
 ```
 Andrews-Laptop:technical andrewlu$ ls
@@ -82,7 +92,7 @@ Andrews-Laptop:technical andrewlu$ ls
 Andrews-Laptop:technical andrewlu$ find . -delete 
 Andrews-Laptop:technical andrewlu$ ls
 ```
-This command line option traverses through all found files/directories and deletes them. As seen in the first code block, all files were deleted from the `911 report` directory, while the second code block shows all files and directories deleted from `technical` directory. 
+This command line option traverses through all found files/directories and deletes them. As seen in the first code block, all files were deleted from the `About_LSC` directory by the `-type f`, while the second code block shows all files and directories deleted from `technical` directory. 
 
 Source - https://ss64.com/mac/find.html
 
