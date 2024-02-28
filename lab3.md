@@ -63,7 +63,7 @@ In the original code, you are not able to directly swap the values of two array 
 **`find` Command**
 
 
-**`find technical/government/About_LSC -type f -delete` command**
+**`find -delete` command**
 ```
 andrewlu@Andrews-Laptop docsearch % ls technical/government/About_LSC
 CONFIG_STANDARDS.txt
